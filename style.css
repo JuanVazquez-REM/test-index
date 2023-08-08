@@ -1,0 +1,134 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(34, 119, 45);
+    }
+    
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+    /*--------------------------------------------------------------
+    # Header
+    --------------------------------------------------------------*/
+    #header {
+    width: 100%;
+    z-index: 9997;
+    transition: all 0.5s;
+    background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.8)), url(bg-lamsa.jpeg) fixed center center;
+    background-size: cover;
+    padding: 50px 0;
+    overflow-y: auto;
+    }
+    
+    #header .profile img {
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    /* border: 5px solid #367c2b; */
+    }
+    
+    #header .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    #header .profile h5 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    #header .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: rgba(34, 119, 45);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    }
+    
+    #header .profile .social-links a:hover {
+    background: rgba(34, 119, 45, 0.204);
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    
+    /*--------------------------------------------------------------
+    # Información
+    --------------------------------------------------------------*/
+    
+    .contacto{
+    padding: 20px 10px 20px 10px;
+    }
+    
+    
+    .contacto .content {
+    padding: 5%;
+    }
+    
+    .contacto .content2{
+    background-color: #ffffff;
+    border-radius: 3%;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .contacto h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+    text-transform: uppercase;
+    }
+    
+    .contacto h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #367c2b;
+    margin-top: 5%;
+    letter-spacing: 1px;  
+    }
+    
+    .contacto p {
+    margin: 10px 0 8px 0;
+    color: #000000;
+    font-size: 15px;
+    
+    }
+    
+    .borde{
+    display: block;
+    height: 1px;
+    background: #c0c0c0;
+    bottom: 1px;
+    }
+    
+    
+    
