@@ -35,7 +35,8 @@
     margin: 10px auto;
     display: block;
     width: 200px;
-    /* border: 5px solid #367c2b; */
+ /*    border: 5px solid #367c2b;  */
+    border: 5px solid #fff; 
     }
     
     #header .profile h1 {
